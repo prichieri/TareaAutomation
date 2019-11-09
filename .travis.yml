@@ -4,4 +4,3 @@ services:
   - xvfb
 addons:
   chrome: stable
-script: xvfb-run --server-args="-screen 0 1280x1024x16" make test
