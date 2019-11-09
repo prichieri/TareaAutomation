@@ -5,4 +5,4 @@ services:
 addons:
   chrome: stable
 before_install:
-  - chmod +x /home/travis/build/AbstractaChile/courseAutomation/drivers/chromedriver
+  - chmod +x /home/travis/build/prichieri/TareaAutomation/drivers/chromedriver
