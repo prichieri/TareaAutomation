@@ -3,8 +3,4 @@ dist: xenial
 services:
   - xvfb
 addons:
-  firefox: "latest"
-script: 
-    mvn clean test -Dsuite="src/test/resources/testng/testng.xml"
-before_install:
-  - chmod +x /drivers/geckodriver
+  chrome: stable
