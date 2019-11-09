@@ -4,5 +4,4 @@ services:
   - xvfb
 addons:
   chrome: stable
-before_install:
-  - google-chrome-stable --headless --disable-gpu
+script: xvfb-run --server-args="-screen 0 1280x1024x16" make test
