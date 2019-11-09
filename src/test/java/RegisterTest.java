@@ -35,7 +35,7 @@ public class RegisterTest {
   String mail = createMail(7);
   WebElement textToValidate;
 
-  @BeforeClass
+  /*@BeforeClass
   public void setUp() {
     WebDriverManager.chromedriver().setup();
     ChromeOptions options = new ChromeOptions();
@@ -48,7 +48,7 @@ public class RegisterTest {
     driver = new ChromeDriver(options);
     js = (JavascriptExecutor) driver;
     vars = new HashMap<String, Object>();
-  }
+  }*/
 
   @AfterClass
   public void tearDown() {
