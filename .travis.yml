@@ -3,4 +3,7 @@ dist: xenial
 services:
   - xvfb
 addons:
-  chrome: stable
+  chrome: stable.
+before_install:
+  - # start your web application and listen on `localhost`
+  - google-chrome-stable --start-maximized
