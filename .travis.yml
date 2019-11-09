@@ -1,6 +1,5 @@
 language: java
 dist: xenial
-services:
-  - xvfb
+
 addons:
   chrome: stable

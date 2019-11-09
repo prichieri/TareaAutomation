@@ -55,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.CarroTest">
+  <component name="RunManager" selected="TestNG.RegisterTest">
     <configuration name="CarroTest" type="TestNG" nameIsGenerated="true">
       <module name="maventarea" />
       <option name="SUITE_NAME" value="" />
