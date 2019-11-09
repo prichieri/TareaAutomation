@@ -48,12 +48,12 @@ public class RegisterTest {
     driver = new ChromeDriver(options);
     js = (JavascriptExecutor) driver;
     vars = new HashMap<String, Object>();
-  }*/
+  }
 
   @AfterClass
   public void tearDown() {
     driver.quit();
-  }
+  }*/
 
   @Test
   public void register() {
